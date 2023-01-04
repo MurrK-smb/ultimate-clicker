@@ -1,5 +1,10 @@
 .game {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: darkgray;
+}
+
+.game__counter {
+  margin: 0;
+  padding: 0;
 }

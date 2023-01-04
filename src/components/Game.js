@@ -4,7 +4,7 @@ import React from "react";
 function Game() {
   return (
     <main className="game">
-      <p className="counter">0</p>
+      <p className="game__counter">0</p>
     </main>
   );
 }
