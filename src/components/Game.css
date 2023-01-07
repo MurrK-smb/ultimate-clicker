@@ -1,7 +1,7 @@
 .game {
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: calc(100vh - 120px);
   background-color: darkgray;
 }
 
