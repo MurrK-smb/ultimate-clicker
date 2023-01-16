@@ -1,11 +1,13 @@
 import "./Game.css";
-import React from "react";
+import React, { useState } from "react";
 
 function Game() {
+  const [count, setCount] = useState(0);
+
   return (
     <div className="game">
-      <button className="game__button">
-        <p className="game__counter">0</p>
+      <button className="game__button" onClick={() => setCount(count + 1)}>
+        <p className="game__counter">{count}</p>
       </button>
     </div>
   );
