@@ -1,5 +1,5 @@
 import "./Game.css";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Game() {
   const [count, setCount] = useState(0);
