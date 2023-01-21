@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from "../Navbar/Navbar.js";
-import Game from "../Game/Game.js";
+import Navbar from "./Navbar/Navbar.js";
+import Game from "./Game/Game.js";
 
 function App() {
   return (
